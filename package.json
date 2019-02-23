@@ -1,0 +1,19 @@
+{
+  "name": "peerjs-videochat-application-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "peer-server.js",
+  "scripts": {
+    "client-install": "npm install --prefix public",
+    "start": "node peer-server.js",
+    "server": "nodemon peer-server.js",
+    "client": "npm start --prefix public",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd public && npm install && npm start"
+  },
+  "author": "Suresh N",
+  "license": "ISC",
+  "dependencies": {
+    "peer": "^0.2.10"
+  }
+}

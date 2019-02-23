@@ -1,0 +1,16 @@
+{
+  "name": "peerjs-videochat-application-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "website-server.js",
+  "scripts": {
+    "start": "node website-server.js"
+  },
+  "proxy": "https://localhost:9000",
+  "author": "Suresh N",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "peerjs": "~0.3.14"
+  }
+}

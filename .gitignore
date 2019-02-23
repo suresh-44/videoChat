@@ -1,0 +1,4 @@
+node_module/
+
+public/node_module/
+node_modules
